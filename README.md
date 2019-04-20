@@ -1,11 +1,11 @@
 # React_Buffa_Hobiana_Sandratra
 Le projet est écrit en React
 
-##Installation
+## Installation
 Utiliser le package manager [npm]
 ``npm install``
 
-##Fonctionnalités
+## Fonctionnalités
 Liste: - [x] Recherche par nom, type de cuisine et description d'un restaurant
          [x] Liste des restaurants
          [x] Tri par nom restaurant
@@ -17,6 +17,6 @@ Liste: - [x] Recherche par nom, type de cuisine et description d'un restaurant
          [x] ajout et diminution de la quantite dans le panier(lorsqu'on ajoute ou on diminue la quantite, il necessite de sortir dans le panier de rentrer pour voir le changement effectué)
          [x] somme des prix dans le panier suivant la quantité du produit
 
-##Bibliothèque utilisée
+## Bibliothèque utilisée
 React, Material UI et Redux
 
