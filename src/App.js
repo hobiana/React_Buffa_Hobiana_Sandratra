@@ -24,9 +24,9 @@ class App extends Component {
   }
 
   componentWillMount() {
-    this.ref = base.syncState("restaurant", {
+    this.ref = base.syncState("/restaurant", {
       context: this,
-      state: 'restaurant'
+      state: 'restaurants'
     });
   }
 
@@ -40,7 +40,7 @@ class App extends Component {
   }
 
   getAllRestaurants = () => {
-    this.setState({ restaurants });
+    this.setState({ ...this.state.restaurants });
   }
 
   deleteOrder = (index) => {
