@@ -11,7 +11,9 @@ const styles = {
     flexGrow: 1,
   },
   link: {
-    textDecoration: 'none'
+    textDecoration: 'none',
+    color: 'brown',
+    fontStyle: 'oblique'
   }
 }
 
@@ -28,7 +30,7 @@ class Header extends Component {
                 className={classes.link}
                 to="/">
                 <Typography variant="h6" color="inherit">
-                  Réstaurants
+                  Les Bons Restaux
                 </Typography>
               </Link>
           </Toolbar>
