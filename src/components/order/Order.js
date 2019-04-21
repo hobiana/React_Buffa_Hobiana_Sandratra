@@ -73,6 +73,10 @@ class Order extends Component {
     return total;
   }
 
+  valider = (orders) => {
+    alert('Votre commande a été prise en charge.');
+  }
+
   toggleDrawer = (status) => {
     this.setState({ open: status });
   }
@@ -136,6 +140,7 @@ class Order extends Component {
                   {`Total: ${this.getTotal(commands)}€`}
                 </Typography>
                 <Button 
+                  onClick={this.valider}
                   style={styles.drawerFooter.checkoutButton}>
                   Valider
                 </Button>
